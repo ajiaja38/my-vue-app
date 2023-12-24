@@ -1,5 +1,4 @@
 <template clas>
-  <navbar name="Aji Perdana" />
   <div class="px-4">
     <h1>This is an home page</h1>
     <button
@@ -12,12 +11,7 @@
 </template>
 
 <script>
-import NavbarCommonVue from '@/components/navbar/NavbarCommon.vue'
-
 export default {
-  components: {
-    navbar: NavbarCommonVue
-  },
   methods: {
     handleClick() {
       alert('Tombol telah di klik')
